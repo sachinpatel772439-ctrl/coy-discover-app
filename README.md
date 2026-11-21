@@ -1,14 +1,7 @@
-\# Coy Discover App
-
-
-
+Coy Discover App
 A simple and interactive profile discovery application inspired by modern matchmaking platforms. Users can discover profiles, like or pass on them, and view matches when both users have liked each other.
 
-
-
-\## Features
-
-
+Features
 
 \- 30 mock user profiles.
 
@@ -34,10 +27,7 @@ A simple and interactive profile discovery application inspired by modern matchm
 
 \- Swipe and match data persisted using a local JSON file.
 
-
-
 \## Tech Stack
-
 
 
 \*\*Frontend\*\*
@@ -103,9 +93,7 @@ coy-discover-app/
 ```
 
 
-
 \## Getting Started
-
 
 
 \### Prerequisites
@@ -229,17 +217,13 @@ Request body:
 The backend checks whether the profile has already liked the current user and returns match information.
 
 
-
 \## Data Persistence
-
 
 
 The backend stores profile and swipe information in `backend/db.json`. This file is generated locally and is excluded from Git using `.gitignore`.
 
 
-
 \## Author
-
 
 
 Developed as part of the Coy SDE Intern Assignment.
